@@ -19,7 +19,7 @@ jobs:
         run: pip install semgrep
 
       - name: Ejecutar análisis
-        run: semgrep --config=files/custom-rules.yal  --json --output=semgrep-results.json
+        run: semgrep --config=files/custom-rules.yaml  --json --output=semgrep-results.json
 
 
 
